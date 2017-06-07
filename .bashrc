@@ -124,9 +124,6 @@ export PS1="${BLUE}\u@${HOSTNAME}$ ${RESET}"
 # set the default git editor to vim
 export GIT_EDITOR=vim
 
-# added by Anaconda3 4.1.1 installer
-export PATH="/home/corey/anaconda3/bin:$PATH"
-
 # added by Anaconda3 4.3.1 installer
 export PATH="/home/corbot/anaconda3/bin:$PATH"
 
