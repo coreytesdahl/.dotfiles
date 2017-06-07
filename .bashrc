@@ -132,3 +132,6 @@ export PATH="/home/corbot/hadoop-2.8.0/bin:$PATH"
 
 # Create the JAVA_HOME environment varaible for hadoop 
 export JAVA_HOME="/usr"
+
+# Source .xinitrc for capslock and escape swap
+source ~/.xinitrc
