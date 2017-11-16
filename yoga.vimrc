@@ -12,4 +12,17 @@ set tabstop=4
 
 set shiftwidth=4
 
+set cursorline
+
+" remap tab movement left and right
+nnoremap H gT
+nnoremap L gt
+
 set number
+
+"************** Start of vundle *****************
+
+
+"************** Start of programming paste bindings *****************
+
+

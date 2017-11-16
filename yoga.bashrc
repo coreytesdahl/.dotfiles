@@ -135,3 +135,7 @@ export JAVA_HOME="/usr"
 
 # Source .xinitrc for capslock and escape swap
 source ~/.xinitrc
+
+# xrandr settings for external monitor at home
+#xrandr --output eDP1 --auto --output DP1 --auto --panning 3840x2160+3200+0 --scale 2x2 --right-of eDP1
+
