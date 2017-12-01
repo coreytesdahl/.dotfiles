@@ -7,6 +7,8 @@ alias lat="ls -lat --color"
 
 alias keller_ssh="ssh tesd0005@csel-kh4250-12.cselabs.umn.edu"
 
+alias lind_ssh="ssh tesd0005@csel-lind40-12.cselabs.umn.edu"
+
 alias mist_ssh="ssh mesh@mist38-umh.cs.umn.edu"
 
 alias picamsam_ssh="ssh corey@picamsam.hopto.org"
