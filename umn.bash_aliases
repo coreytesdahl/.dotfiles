@@ -1,10 +1,4 @@
-#-----------------------------------------------------------------------------
-#   Default user aliases for bash
-#
-#   This is an important setup file for your account. If you decide to change 
-#   this file, keep a working copy until you are certain that your changes 
-#   work.
-#
+#!/bin/bash
 
 alias ls="ls -F"
 
