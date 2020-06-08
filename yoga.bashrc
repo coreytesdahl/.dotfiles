@@ -118,6 +118,8 @@ fi
 
 # Change the command prompt to a custom command prompt
 BLUE="\[$(tput setaf 4)\]"
+GOLD="\[$(tput setaf 3)\]" # use gold in umn .bashrc
+GREEN="\[$(tput setaf 2)\]" # use gold in hpe .bashrc
 RESET="\[$(tput sgr0)\]"
 export PS1="${BLUE}\u@${HOSTNAME}$ ${RESET}"
 
@@ -126,6 +128,9 @@ export GIT_EDITOR=vim
 
 # added by Anaconda3 4.3.1 installer
 export PATH="/home/corbot/anaconda3/bin:$PATH"
+
+# Add texlive to my path 
+export PATH="/usr/local/texlive/2020/bin/x86_64-linux/:$PATH"
 
 # Add hadoop to my path 
 export PATH="/home/corbot/hadoop-2.8.0/bin:$PATH"
