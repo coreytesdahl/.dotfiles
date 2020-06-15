@@ -1,7 +1,7 @@
 #!/bin/bash/
 
 alias ls="ls --color"
-alias la"ls -a --color"
+alias la="ls -a --color"
 alias lla="ls -la --color"
 alias lat="ls -lat --color"
 
