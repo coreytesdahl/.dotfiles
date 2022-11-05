@@ -121,10 +121,17 @@ BLUE="\[$(tput setaf 4)\]"
 GOLD="\[$(tput setaf 3)\]" # use gold in umn .bashrc
 GREEN="\[$(tput setaf 2)\]" # use gold in hpe .bashrc
 RESET="\[$(tput sgr0)\]"
+
 export PS1="${BLUE}\u@${HOSTNAME}$ ${RESET}"
 
 # set the default git editor to vim
 export GIT_EDITOR=vim
+
+# Set the comandline editor mode to vi key bindings
+set -o vi
+#
+# set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # added by Anaconda3 4.3.1 installer
 export PATH="/home/corbot/anaconda3/bin:$PATH"
@@ -138,11 +145,9 @@ export PATH="/home/corbot/hadoop-2.8.0/bin:$PATH"
 # Create the JAVA_HOME environment varaible for hadoop 
 export JAVA_HOME="/usr"
 
-# Source .xinitrc for capslock and escape swap
-source ~/.xinitrc
-
 export TERM=screen-256color
 
 # xrandr settings for external monitor at home
 #xrandr --output eDP1 --auto --output DP1 --auto --panning 3840x2160+3200+0 --scale 2x2 --right-of eDP1
 
+source ~/.bash_aliases

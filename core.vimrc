@@ -70,6 +70,7 @@ autocmd FileType clj setlocal shiftwidth=2
 
 autocmd FileType make setlocal noexpandtab
 
+# should these defaults be set before the ^ autocmd FileType configurations
 set tabstop=4
 
 set shiftwidth=4
